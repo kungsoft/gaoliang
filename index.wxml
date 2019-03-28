@@ -1,0 +1,20 @@
+
+<view class="body">
+	<view class="ul">
+        <view class="li keyboard keyboard-white {{a1?'active':''}}"  data-type="1" data-index="0" touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b1}}">提示</text></view>
+        <view class="li keyboard keyboard-black {{a2?'active':''}}" data-type="2"  data-index="1"  touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;"  wx:if="{{b2}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a3?'active':''}}" data-type="3" data-index="2"  touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;"  wx:if="{{b3}}">提示</text></view>
+        <view class="li keyboard keyboard-black {{a4?'active':''}}" data-type="4" data-index="3"  touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b4}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a5?'active':''}}" data-type="5" data-index="4"  touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b5}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a6?'active':''}}" data-type="6" data-index="5"  touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b6}}">提示</text></view>
+        <view class="li keyboard keyboard-black {{a7?'active':''}}" data-type="7" data-index="6"  touchstart="keyDown"  catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b7}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a01?'active':''}}" data-type="01" data-index="7"  touchstart="keyDown" catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b01}}">提示</text></view>
+        <view class="li keyboard keyboard-black {{a02?'active':''}}" data-type="02" data-index="8"  touchstart="keyDown" catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b02}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a03?'active':''}}" data-type="03" data-index="9"  touchstart="keyDown" catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b03}}">提示</text></view>
+        <view class="li keyboard keyboard-black {{a04?'active':''}}" data-type="04" data-index="10"  touchstart="keyDown" catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b04}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a05?'active':''}}" data-type="05" data-index="11"  touchstart="keyDown" catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b05}}">提示</text></view>
+        <view class="li keyboard keyboard-white {{a06?'active':''}}" data-type="06" data-index="12"  touchstart="keyDown" catchtap="keyDown"><text class="active" style="z-index: 2;" wx:if="{{b06}}">提示</text></view>
+    </view>
+	<button catchtap="playsong" style="position: fixed;top: 50rpx;left: 1000rpx; border-radius:50%;width:50rpx;height: 60rpx;"></button>
+	<button catchtap="studysong" style="position: fixed;top: 50rpx;left: 800rpx; border-radius:50%;width:50rpx;height: 60rpx;"></button>
+</view>
